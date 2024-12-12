@@ -1,0 +1,48 @@
+punkt 8
+Po pierwszym uruchomieniu aplikacji:
+    D  Metoda onCreate została wywołana
+    D  onStart wywołana
+    D  onResume wywołana
+
+Po wciśnięciu przycisku Cofnij:
+    D  onPause wywołana
+    D  visibilityChanged oldVisibility=true newVisibility=false
+    D  onStop wywołana
+    D  onDestroy wywołana
+
+Po ponownym uruchomieniu aplikacji:
+    D  Metoda onCreate została wywołana
+    D  onStart wywołana
+    D  onResume wywołana
+
+Po wciśnięciu przycisku ekranu głównego Home:
+    D  onPause wywołana
+    D  visibilityChanged oldVisibility=true newVisibility=false
+    D  onStop wywołana
+
+Po powrocie do aplikacji z listy ostatnio używanych aplikacji:
+    onStart wywołana
+    onResume wywołana
+
+punkt 10
+Co się stało po obróceniu ekranu?
+    po obróceniu ekranu wróciło pierwsze pytanie
+logi:
+    D  onPause wywołana
+    D  onStop wywołana
+    D  onDestroy wywołana
+    D  Metoda onCreate została wywołana
+    D  onStart wywołana
+    D  onResume wywołana
+
+punkt 13
+Co się stało po obróceniu ekranu?
+    po obróceniu ekranu zostalo pytanie drugie
+logi:
+    D  onPause wywołana
+    D  onStop wywołana
+    D  Wywolana zastala metoda: onSaveInstanceState
+    D  onDestroy wywołana
+    D  Metoda onCreate została wywołana
+    D  onStart wywołana
+    D  onResume wywołana

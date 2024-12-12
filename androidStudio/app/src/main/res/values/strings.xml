@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FirstTask</string>
+    <string name="button_true">Correct</string>
+    <string name="button_false">Incorrect</string>
+    <string name="button_next">NextOne</string>
+    <string name="already_answered">You have already answered this question!</string>
+    <string name="question_text_1">Czy ziemia jest okrągła?</string>
+    <string name="question_text_2">Czy 2+2 to 5?</string>
+    <string name="question_text_3">Czy woda jest mokra?</string>
+    <string name="question_text_4">Is fire cold?</string>
+    <string name="question_text_5">Does water boil at 100°C?</string>
+    <string name="answer_was_shown">Odpowiedz byla juz wyswietlona!</string>
+</resources>
